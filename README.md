@@ -38,11 +38,11 @@ To model the series, we must first transform it into a stationary process. First
 
 By the Dicky-Fuller test, the time series is not stationary, as we expected. From the Auto-Correlation plot, we see that auto-correlation is high and there seems to be no seasonality in the data. 
 
-![time series analysis plot](images/time_series_analysis_plot)
+![time series analysis plot](images/time_series_analysis_plot.png)
 
 Therefore, to make the process stationary and to get rid of autocorrelation, we take the first difference (subtract the time series from itself with a lag of one day). 
 
-![time series analysis stationary plot](images/time_series_analysis_stationary_plot)
+![time series analysis stationary plot](images/time_series_analysis_stationary_plot.png)
 
 Now, our data is stationary, and we can start modelling. 
 
