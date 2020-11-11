@@ -2,6 +2,8 @@
 
 This project follows the example given in [this article](https://towardsdatascience.com/the-complete-guide-to-time-series-analysis-and-forecasting-70d476bfe775). The Github project of the author, where the dataset is available, can be found [here](https://github.com/marcopeix/stock-prediction).
 
+This project shows how to analyse **time series data**, with modelling using SARIMA (Seasonal Autoregressive Integrated Moving Average) model. 
+
 ### Closing Price 
 
 As we plot the closing price over the time period of the dataset, we can see that it is not a **stationary** process, but it is difficult to tell whether there is any **seasonality**. To capture the trend in the data, we plot the moving average. 
