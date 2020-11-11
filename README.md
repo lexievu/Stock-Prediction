@@ -74,4 +74,5 @@ We then predicted the closing price of the next five trading days. We calculated
 
 Comparing our prediction to the real data, we saw that our prediction was not perfect. In fact, the predicted price was essentially flat, meaning that our model was not performing well. This is probably because changes in stock prices are unpredictable. 
 
+![predicted closing prices](images/predicted_closing_prices.png)
 
